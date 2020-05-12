@@ -1,0 +1,43 @@
+.headerMenuText {
+    background-color: wheat;
+display: flex;
+justify-content: center;
+}
+
+#mainContaintWrapper {
+margin-top: 10px;
+margin-right: 50px;
+margin-left: 50px;
+margin-bottom: 50px;
+}
+
+#mainContaintWrapper table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.imageMeinWrapper {
+position: relative;
+display: flex;
+
+
+.imageMeinWrapper img {
+width: 500px;
+
+}
+
+.imageMenuText {
+position: absolute;
+top: 180px;
+left: 180px;
+background-color: crimson;
+color: cyan;
+padding-left: 20px;
+padding-right: 20px;
+}
+/*
+.imageMenuText:hover{
+    background-color: darkorange;
+
+}*/
