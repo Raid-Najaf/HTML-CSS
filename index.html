@@ -15,6 +15,12 @@
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+          <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 
 </head>
@@ -36,24 +42,15 @@
     <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a href="maldives Historia.html" class="nav-link">&#127796; Historia</a>
+                <a href="#" class="nav-link">&#127796; Historia</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown-target"
-                >&#127758; Geografi
-                    <span class="caret"></span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdown-target">
-
-                    <ul class="navbar-nav">
-                        <a class="dropdown-item">&#128262; Klimat</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item">&#128038; Fauna & flora</a>
-                    </ul>
-                </div>
+                
+                <a href="#" class="nav-link">&#127758; politik</a>
+                
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">&#128081; Styre & politik</a>
+                <a href="#" class="nav-link">&#128081; politik</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link">&#128176; Ekonomi</a>
@@ -62,7 +59,7 @@
                 <a href="#" class="nav-link">&#128202; Demografi</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">&#128106; Kultur & samhälle</a>
+                <a href="#" class="nav-link">&#128106; Kultur</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link">&#127916; Bildgalleri</a>
@@ -83,45 +80,120 @@
     </div>
 </section>
 <br>
-<section id="mainContaintWrapper">
-    <table>
-        <tr>
-            <td>
-                <div class="imageMeinWrapper">
-                    <a href="">
-                        <div class="imageMenuText"><h4>Mat</h4></div>
-                        <img src="images/drink.jpg" alt="drinks"/>
-                    </a>
+<div class="container-flued">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 pt-5">
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Search</span>
                 </div>
-            </td>
-            <td>
-                <div class="imageMeinWrapper">
-                    <a href="">
-                        <div class="imageMenuText"><h4>Boende</h4></div>
-                        <img src="images/kokos.jpg" alt="kokos palm"/>
-                    </a>
+                <input type="text" class="form-control" aria-label="Sizing exempel input"
+                aria-describedby="inputGroup-sizing-lg" placeholder="Search in maldives">
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 ">
+            <div class="textt">
+                Mat
+            </div>
+            <img src="images/drink.jpg" width="100%" id="bild">
+        </div>
+        <div class="col-md-4">
+            <div class="textt">
+                Djur
+            </div>
+            <img src="images/turtle.jpg" width="100%" id="bild">
+        </div>
+        <div class="col-md-4">
+            <div class="textt">
+                Boende
+            </div>
+            <img src="images/kokos.jpg" width="100%"id="bild">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="textt">
+                Strand
+            </div>
+            <img src="images/strand.jpg" width="100%" id="bild">
+        </div>
+        <div class="col-md-6">
+            <div class="textt">
+                Hav
+            </div>
+            <img src="images/fisk.jpg" width="100%" id="bild">
+        </div>
+        
+    </div>
+</div>>
+<br>
+<div class="container-respo">
+    <div class="row">   
+    </div>
+</div>
+<br>
+
+<div class="carousel-container">
+    <div class="carousel-slide">
+        <img src="images/5.jpg" id="lastClone" alt=""/>
+        <img src="images/1.jpg" alt=""/>
+        <img src="images/2.jpg" alt=""/>
+        <img src="images/3.jpg" alt=""/>
+        <img src="images/4.jpg" alt=""/>
+        <img src="images/5.jpg" alt=""/>
+        <img src="images/1.jpg" id="firstClone" alt=""/>
+    </div>
+</div>
+        <i class="fas fa-angle-double-left" id="prevBtn"></i>
+        <i class="fas fa-angle-double-right" id="nextBtn"></i>
+        <script src="script.js"></script>
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+                    <h3>Maldives </h3>
+                    <p>Maldives has deep blue seas, turquoise reefs, white sandy beaches and palm trees. 
+                    It is also a place full of character.
+                    </p>
                 </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="imageMeinWrapper">
-                    <a href="">
-                        <div class="imageMenuText"><h4>Hav</h4></div>
-                        <img src="images/fisk.jpg" alt="fisk"/>
-                    </a>
+                <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+                    <h2>Divinector</h2>
+                    <ul>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Hosting</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
                 </div>
-            </td>
-            <td>
-                <div class="imageMeinWrapper">
-                    <a href="">
-                        <div class="imageMenuText"><h4>Strand</h4></div>
-                        <img src="images/strand.jpg" alt="strand & palm "/>
-                    </a>
+                <div class="col-md-3 col-sm-6 col-xs-12 segment-three">
+                    <h2>Follow Us</h2>
+                    <p>Pleas follow us on our Social Media prfile in order to keep updated.</p>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
-            </td>
-        </tr>
-    </table>
-</section>
+                <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
+                    <h2>Ouer Newletter</h2>
+                    <p>Ouer thanks and appreciation.</p>
+                    <form action="">
+                        <input type="email">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="footer-bottom-text">All Right reserved by &copy;Raid Najaf.2020</p>
+</footer>-->
 </body>
 </html>
